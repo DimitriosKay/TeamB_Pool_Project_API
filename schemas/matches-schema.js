@@ -15,7 +15,6 @@ exports.MatchesSchema = mongoose.Schema({
     player2_lose : Boolean,
     player1_7balled : Boolean,
     player2_7balled : Boolean,
-    timestamp : true,
     created_match : {
         type: Date,
         require : true
@@ -23,4 +22,4 @@ exports.MatchesSchema = mongoose.Schema({
     finished_match : Date
 });
 
-exports.MatchesModel = mongoose.model("Matches"), this.MatchesSchema;
+exports.MatchesModel = mongoose.model("Matches", this.MatchesSchema);
