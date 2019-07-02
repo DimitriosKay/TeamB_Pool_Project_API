@@ -5,6 +5,7 @@ var matchesScheme = require('../schemas/matches-schema');
 router.get("/matches", async (req, res) => {
     const matches = await matchesScheme.MatchesModel.find();
     return res.send(matches);
+});
 
 router.get("/getMatches", async (req, res) => {
     const matches = matches.MatchesModel.find().then((doc) => {
