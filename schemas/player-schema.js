@@ -50,5 +50,4 @@ exports.PlayerSchema = mongoose.Schema({
   }
 });
 
-exports.PlayerModel = mongoose.model('Player'),
-  this.PlayerSchema;
+exports.PlayerModel = mongoose.model('Player', this.PlayerSchema);
