@@ -1,6 +1,6 @@
 var mongoose = require('mongoose');
 
-exports.PlayersSchema = mongoose.Schema({
+exports.PlayerSchema = mongoose.Schema({
   username: {
     type: String,
     require: [true, 'Username required!'],
@@ -16,16 +16,16 @@ exports.PlayersSchema = mongoose.Schema({
   },
   firstname: {
     type: String,
-    require: [true, 'Name required!'],
-    unique: [true, 'Name already taken'],
-    minlength: [3, 'Name too short'],
+    require: [true, 'First name required!'],
+    unique: [true, 'First name already taken'],
+    minlength: [3, 'First name too short'],
     maxlength: 20
   },
   lastname: {
     type: String,
-    require: [true, 'Name required!'],
-    unique: [true, 'Name already taken'],
-    minlength: [3, 'Name too short'],
+    require: [true, 'Last name required!'],
+    unique: [true, 'Last name already taken'],
+    minlength: [3, 'Last name too short'],
     maxlength: 20
   },
   games_played: {
@@ -50,5 +50,5 @@ exports.PlayersSchema = mongoose.Schema({
   }
 });
 
-exports.PlayersModel = mongoose.model('Players'),
-  this.PlayersSchema;
+exports.PlayerModel = mongoose.model('Player'),
+  this.PlayerSchema;

@@ -1,3 +1,3 @@
 // var express = require("Express");
 // var router = express.Router();
-var Players = require("../schemas/players-schema");
+var Player = require("../schemas/player-schema");
