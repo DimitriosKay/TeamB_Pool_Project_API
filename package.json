@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/DimitriosKan/TeamB_Pool_Project_API#readme",
   "dependencies": {
+    "Express": "^3.0.1",
+    "express": "^4.17.1",
     "mongo": "^0.1.0",
     "mongodb": "^3.2.7",
     "mongoose": "^5.6.2"
