@@ -17,14 +17,12 @@ exports.PlayerSchema = mongoose.Schema({
   firstname: {
     type: String,
     require: [true, 'First name required!'],
-    unique: [true, 'First name already taken'],
     minlength: [3, 'First name too short'],
     maxlength: 20
   },
   lastname: {
     type: String,
     require: [true, 'Last name required!'],
-    unique: [true, 'Last name already taken'],
     minlength: [3, 'Last name too short'],
     maxlength: 20
   },
