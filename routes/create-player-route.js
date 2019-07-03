@@ -10,9 +10,4 @@ router.post('/createPlayer', (req, res, next) => {
     );
 });
 
-/**
- * This router handles routes under /player.
- * It defines endpoints to create players
- */
-
 module.exports = router;
