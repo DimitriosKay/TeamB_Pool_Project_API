@@ -5,15 +5,13 @@ var Schema = mongoose.Schema()
 
 //define the schema for the match queue table
 var queueSchema = new Schema({
-    matchID: {
-        type: Number, 
-        required: true,
-        max: 9999
+    playerOneID: {
+        type: ObjectId, 
+        required: true
     },
-    queuePos: {
-        type: Number,
-        required: true, 
-        max: 20,
+    playerTwoID: {
+        type: ObjectId,
+        required: true
     },
     inPlay: { //only to be true whilst the game described is active, once finished, it will become false
         type: Boolean,
