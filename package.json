@@ -2,7 +2,7 @@
     "name": "teamb_pool_project_api",
     "version": "1.0.0",
     "description": "",
-    "main": "matches.js",
+    "main": "queue.js",
     "scripts": {
       "test": "echo \"Error: no test specified\" && exit 1"
     },
