@@ -2,11 +2,11 @@ var mongoose = require('mongoose');
 
 exports.MatchesSchema = mongoose.Schema({
     player1 : {
-        type : Number,
+        type : String,
         require : true
     },
     player2 : {
-        type : Number,
+        type : String,
         require : true
     },
     player1_win : Boolean,

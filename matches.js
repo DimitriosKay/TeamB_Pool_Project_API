@@ -5,10 +5,6 @@ var app = express();
 
 app.use(express.json());
 
-app.listen(8080, () => {
-    console.log("Listening to port 8080");
-});
-
 app.use("/match", MatchesRouters);
 
 app.get("/", (req, res) => {
@@ -22,8 +18,8 @@ mongoose.connect(
         if (error) {
             console.log("Not working.");
         } else {
-            app.listen(8080, () => {
-                console.log("Listening to port 8080");
+            app.listen(9090, () => {
+                console.log("Listening to port 9090");
             });
         }
     }
