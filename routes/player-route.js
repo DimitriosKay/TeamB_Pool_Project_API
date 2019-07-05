@@ -23,7 +23,7 @@ router.get('/allUsers', async (req, res) => {
 router.get('/byUsername', (req, res, next) => paramHandler(req, res, ['username'], next), async (req, res, next) => {
     try {
         const { username } = req.query;
-        const docs = await playerScheme.PlayerModel.find({ 'username': username })
+        const docs = await playerScheme.PlayerModel.findOne({ 'username': username })
         res.status(200).send(docs);
     } catch (error) {
         return next(error);
