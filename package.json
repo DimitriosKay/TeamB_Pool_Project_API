@@ -2,7 +2,7 @@
   "name": "teamb_pool_project_api",
   "version": "1.0.0",
   "description": "Pool management \u001b[1;5D\u001b[1;3D\u001b[1;5D\u001b[1;5D\u001b[1;5D\u001b[1;5D\u001b[1;5D\u001b[D\u001b[D\u001b[D\u001b[Dtable \u001b[C\u001b[Dmanagement API side\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D,",
-  "main": "index.js",
+  "main": "player.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
