@@ -8,7 +8,7 @@ var MatchesRouters = require("./routes/match-routes");
 var QueuesRouters = require("./routes/queue-routes");
 
 
-app.use(cors());
+app.use(cors({origin: true}));
 
 app.use(express.json());
 
