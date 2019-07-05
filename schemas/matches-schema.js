@@ -9,12 +9,8 @@ exports.MatchesSchema = mongoose.Schema({
         type : String,
         require : true
     },
-    player1_win : Boolean,
-    player1_lose : Boolean,
-    player2_win : Boolean,
-    player2_lose : Boolean,
-    player1_7balled : Boolean,
-    player2_7balled : Boolean,
+    winner : String,
+    seven_balled : boolean,
     created_match : {
         type: Date,
         require : true
