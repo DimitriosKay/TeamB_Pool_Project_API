@@ -3,11 +3,11 @@ var mongoose = require('mongoose')
 
 //define the schema for the match queue table
 exports.QueueSchema = mongoose.Schema({
-    playerOneID: {
+    playerOneUsername: {
         type: String, 
         required: true
     },
-    playerTwoID: {
+    playerTwoUsername: {
         type: String,
         required: true
     },
