@@ -14,8 +14,5 @@ module.exports = (req, res, params, next) => {
         }
     }   
     next();
-<<<<<<< HEAD
 };
-=======
-};
->>>>>>> origin/queue_collection
+
