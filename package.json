@@ -1,0 +1,22 @@
+{
+  "name": "teamb_pool_project_api",
+  "version": "1.0.0",
+  "description": "Pool management \u001b[1;5D\u001b[1;3D\u001b[1;5D\u001b[1;5D\u001b[1;5D\u001b[1;5D\u001b[1;5D\u001b[D\u001b[D\u001b[D\u001b[Dtable \u001b[C\u001b[Dmanagement API side\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D,",
+  "main": "player.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DimitriosKan/TeamB_Pool_Project_API.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DimitriosKan/TeamB_Pool_Project_API/issues"
+  },
+  "homepage": "https://github.com/DimitriosKan/TeamB_Pool_Project_API#readme",
+  "dependencies": {
+    "mongoose": "^5.6.2"
+  }
+}
