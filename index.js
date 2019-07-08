@@ -1,11 +1,11 @@
-var mongoose = require("mongoose");
-var express = require("express");
-var cors = require("cors");
+var mongoose = require('mongoose');
+var express = require('express');
+var cors = require('cors');
 var app = express();
 
-var PlayersRouters = require("./routes/player-route");
-var MatchesRouters = require("./routes/match-routes");
-var QueuesRouters = require("./routes/queue-routes");
+var PlayersRouters = require('./routes/player-route');
+var MatchesRouters = require('./routes/match-routes');
+var QueuesRouters = require('./routes/queue-routes');
 
 
 app.use(cors({origin: true}));
@@ -17,7 +17,7 @@ app.use("/match", MatchesRouters);
 app.use("/queue", QueuesRouters);
 
 mongoose.connect(
-    "mongodb://localhost:27017/TeamB",
+    'mongodb://localhost:27017/TeamB',
     { useNewUrlParser: true },
     function (error) {
         if (error) {
