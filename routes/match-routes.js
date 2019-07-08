@@ -1,4 +1,4 @@
-var express = require("Express");
+var express = require("express");
 var router = express.Router();
 var matchesScheme = require("../schemas/matches-schema");
 let paramHandler = require('../handlers/param-handler');
